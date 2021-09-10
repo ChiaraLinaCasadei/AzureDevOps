@@ -30,6 +30,8 @@ Tipos de Work Items y cuando usarlos
 * User Story -> para requerimientos, luego agregarles más detalles. Deben completarse en un sprint.
 * Bugs -> para capturar defectos de código.
 * Epics -> se entregará trimestralmente para un objetivo importante.
+* Task ->
+* Test Case ->
 
 Epic > Feature > User Story
 
@@ -44,6 +46,24 @@ Cada WorkItem puede ser marcado para seguir su actividad y cambios, para eso es 
 Cuando nosotros modificamos uno recientemente (cambio de status, comentario agregado), aparecen bajo el filtro My Activity.
 
 Para manipular el resultado de la busqueda, está la sección "My Queries", aunque lo que está por defecto es muy útil para empezar. 
+
+
+### Boards
+
+Es una lista general de WorkItems organizado por prioridades. Contiene todos los del proyecto.
+
+### BackLogs
+
+Tiene todos los WorkItems, pero agrupados por iteraciones.
+Siempre usar BackLogs para cambiar un WorkItem de una iteraciones a otra, porque así tambien se mueven sus tareas asociadas (hijos), cosa que puede no suceder si lo hacemos manualmente, y nos traerá problemas.
+
+### Sprint
+
+Un lapso de tiempo de 2 a 3 semanas. Durante ese lapso deben resolverse los diferentes WorkItems planificados. Es una buena forma de estimar la capacidad de trabajo de cada integrante del equipo.
+
+En Azure es una combinaciones de Boards y BackLogs. Es como el tablero de Boards, tiene los WItems que se pueden arrastrar y soltar (TaskBoards), pero no muestra todos, sino específicamente los de ese Sprint, tambien llamado Iteración. 
+
+
 
 
 
