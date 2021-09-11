@@ -98,11 +98,21 @@ Para manipular el resultado de la busqueda, está la sección "My Queries", aunq
 ### Boards
 
 Es una lista general de WorkItems organizado por prioridades. Contiene todos los del proyecto.
+Cuando una tarea está en Nuevas, y la arrastras a Activas, automáticamente se te asigna.
+Es un tablero con 3 niveles de workItems, ya que contiene Epics, Features and User Stories.
+Las columnas del tablero cambian según el setup de trabajo con el que estemos.
 
 ### BackLogs
-
+La idea principal del backlog es organizar las prioridades y listar requerimientos.
 Tiene todos los WorkItems, pero agrupados por iteraciones.
 Siempre usar BackLogs para cambiar un WorkItem de una iteraciones a otra, porque así tambien se mueven sus tareas asociadas (hijos), cosa que puede no suceder si lo hacemos manualmente, y nos traerá problemas.
+Es una lista de trabajo pendiente, organizado por prioridad, que en la tabla se ve representado por la columna Order(que NO es el id de la tarea)
+  
+Tiene 2 funciones muy útiles:
+  * Mapping: ayuda a organizar de manera jerárquica las historias. 
+  * Planning: permite añadir fácilmente work items a iteraciones o sprints. Lo mas común es asociar las US a la iteración.
+  
+  *carryover: cuando no se terminó una user story en el tiempo provisto, y se mueve a la siguiente iteración*
 
 ### Sprint
 
@@ -110,6 +120,14 @@ El sprint me permite ver todas las US de esa iteracion y ordenarlas por priorida
 Un lapso de tiempo de 2 a 3 semanas. Durante ese lapso deben resolverse los diferentes WorkItems planificados. Es una buena forma de estimar la capacidad de trabajo de cada integrante del equipo.
 
 En Azure es una combinaciones de Boards y BackLogs. Es como el tablero de Boards, tiene los WItems que se pueden arrastrar y soltar (TaskBoards), pero no muestra todos, sino específicamente los de ese Sprint, tambien llamado Iteración. 
+  
+  * Capacity: Puede ayudar a estimar si los elementos de trabajo (Work Items) que tenemos asignados exceden las horas que podemos trabajar en el transcurso del día.
+  
+  Es esperable que el Scrum Master solicite que estimemos cuanto tiempo nos va a llevar una tarea. Lo mas importante, que es lo que impacta en la gráfica de capacidad, es el Remaining, el tiempo que nos queda para finalizar la tarea. Tambien se cargan los días de descanso.
+  
+  La cantidad de tiempo que le resta a una persona, es útil para saber si estará disponible para tomar otra tarea, o se encontrará probablmente ocupado.
+  
+  * Analytics: Va a mostrar la carga de trabajo en función del tiempo. Lo ideal sería que siempre nos encontremos debajo de la linea verde, que es la estimación que realizamos. 
 
 
 
